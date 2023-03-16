@@ -58,13 +58,15 @@ export default function Home() {
             <h3 className='text-3xl py-1'> Sercives i Provide</h3>
             <p className='text-md leading-8 text-gray-800 dark:text-gray-50'>I make Web and Mobile app Designs tailor-made as per your needs and requirements  <span className='text-teal-500'>soluta </span> cupiditate omnis. Tempora tempore consequatur, dolorum non rem exercitationem!</p>
             <p className='text-md leading-8 text-gray-800'>
-              Distinctio, magnam? Modi facere recusandae dolorum quos cupiditate omnis. Tempora tempore consequatur, dolorum non rem exercitationem!</p>
+              I offer from a wide range of services, including brand design and
+              programming</p>
           </div>
           <div className='lg:flex gap-10 '>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={design} width={100} height={100}/> 
               <h3 className='text-lg font-medium pt-8 pb-2'>Amazing Designs</h3>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, a soluta corporis natus voluptate impedit?</p>
+              <p className='py-2'>Creating elegant designs suited for your needs following core
+                design theory</p>
               <h4 className='py-4 text-teal-600'>Design Tools I use</h4> 
               <p className='text-gray-800 py-1'>Photoshop</p>
               <p className='text-gray-800 py-1'>Illustrator</p>
@@ -73,7 +75,8 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={code} width={100} height={100}/> 
               <h3 className='text-lg font-medium pt-8 pb-2'>Interactive UI</h3>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, a soluta corporis natus voluptate impedit?</p>
+              <p className='py-2'>Do you have an idea for your next great website? Let's make it a
+                reality.</p>
               <h4 className='py-4 text-teal-600'>Design Tools I use</h4> 
               <p className='text-gray-800 py-1'>Photoshop</p>
               <p className='text-gray-800 py-1'>Illustrator</p>
@@ -82,7 +85,8 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={consulting} width={100} height={100}/> 
               <h3 className='text-lg font-medium pt-8 pb-2'>Fluid Websites</h3>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, a soluta corporis natus voluptate impedit?</p>
+              <p className='py-2'> Are you interested in feedback for your current project? I can
+                give you tips and tricks to level it up.</p>
               <h4 className='py-4 text-teal-600'>Design Tools I use</h4> 
               <p className='text-gray-800 py-1'>Photoshop</p>
               <p className='text-gray-800 py-1'>Illustrator</p>
