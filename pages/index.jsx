@@ -44,10 +44,10 @@ export default function Home() {
             <p className='text-md py-5 text-gray-800 leading-8 md:text-xl max-w-lg mx-auto dark:text-gray-100'>I am a FreeLancer, I make a Fullstack  Resposive Websites and Develop Cross-platform Android Apps <span className='block'>Join Me on my socials below <a href="/projects/about">about</a></span></p>
           </div>
           <div className='text-5xl flex justify-center gap-16 text-gray-600 dark:text-white'>
-            <BsDiscord className='hover:-translate-y-5 ease-in duration-300' />
-            <AiFillLinkedin className='hover:-translate-y-5 ease-in duration-300' />
-            <AiFillTwitterCircle className='hover:-translate-y-5 ease-in duration-300'/>
-            <BsTelegram className='hover:-translate-y-5 ease-in duration-300'/>
+            <BsDiscord className='hover:-translate-y-5 ease-in duration-300' href="https://discordapp.com/users/ye'ab#0577" />
+            <AiFillLinkedin className='hover:-translate-y-5 ease-in duration-300' href="https://www.linkedin.com/in/ye-ab-undefined-512260257/" />
+            <AiFillTwitterCircle className='hover:-translate-y-5 ease-in duration-300' href="https://twitter.com/Yeab77676637"/>
+            <BsTelegram className='hover:-translate-y-5 ease-in duration-300' href="https://t.me/TD7990"/>
           </div>
           <div className='relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={avatar} layout='fill' objectFit='cover' />
