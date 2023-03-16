@@ -44,10 +44,11 @@ export default function Home() {
             <p className='text-md py-5 text-gray-800 leading-8 md:text-xl max-w-lg mx-auto dark:text-gray-100'>I am a FreeLancer, I make a Fullstack  Resposive Websites and Develop Cross-platform Android Apps <span className='block'>Join Me on my socials below <a href="/projects/about">about</a></span></p>
           </div>
           <div className='text-5xl flex justify-center gap-16 text-gray-600 dark:text-white'>
-            <BsDiscord className='hover:-translate-y-5 ease-in duration-300' href="https://discordapp.com/users/ye'ab#0577" />
-            <AiFillLinkedin className='hover:-translate-y-5 ease-in duration-300' href="https://www.linkedin.com/in/ye-ab-undefined-512260257/" />
-            <AiFillTwitterCircle className='hover:-translate-y-5 ease-in duration-300' href="https://twitter.com/Yeab77676637"/>
-            <BsTelegram className='hover:-translate-y-5 ease-in duration-300' href="https://t.me/TD7990"/>
+            
+            <Link href={"https://discordapp.com/users/ye'ab#0577"}><BsDiscord className='hover:-translate-y-5 ease-in duration-300 cursor-pointer'  /></Link>
+            <Link href={"https://www.linkedin.com/in/ye-ab-undefined-512260257/"}><AiFillLinkedin className='hover:-translate-y-5 ease-in duration-300 cursor-pointer'  /></Link>
+            <Link href={"https://twitter.com/Yeab77676637"}><AiFillTwitterCircle className='hover:-translate-y-5 ease-in duration-300 cursor-pointer' /></Link>
+            <Link href={"https://t.me/TD7990"}><BsTelegram className='hover:-translate-y-5 ease-in duration-300 cursor-pointer' /></Link>
           </div>
           <div className='relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={avatar} layout='fill' objectFit='cover' />
@@ -55,7 +56,7 @@ export default function Home() {
         </section>
         <section className='min-h-screen'>
           <div className='dark:text-white'>
-            <h3 className='text-3xl py-1'> Sercives i Provide</h3>
+            <h3 className='text-3xl py-1 hover:text-teal-500 font-medium'> Services i Provide</h3>
             <p className='text-md leading-8 text-gray-800 dark:text-gray-50'>I make Web and Mobile app Designs tailor-made as per your needs and requirements  <span className='text-teal-500'>soluta </span> cupiditate omnis. Tempora tempore consequatur, dolorum non rem exercitationem!</p>
             <p className='text-md leading-8 text-gray-800'>
               I offer from a wide range of services, including brand design and
@@ -96,7 +97,7 @@ export default function Home() {
         </section>
         <section className='min-h-screen'>
         <div className='dark:text-white'>
-            <h3 className='text-3xl py-1'> Portfolio</h3>
+            <h3 className='text-3xl py-1 hover:text-teal-500 font-medium'> Portfolio</h3>
             <p className='text-md leading-8 text-gray-800 dark:text-white'>I have been invlolved in many FullStack projects and made many personal ones. Below are some of the projects i made  <span className='text-teal-500'>soluta </span> The Designs are user-friendly and responsive</p>
             <p className='text-md leading-8 text-gray-800 dark:text-white'>
               You can click and go to each project</p>
