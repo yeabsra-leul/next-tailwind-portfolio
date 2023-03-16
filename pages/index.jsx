@@ -22,7 +22,6 @@ import Layout from './layout'
 export default function Home() {
   const [darkMode,setDarkMode] = useState(false)
   return (
-    <Layout>
     <div className={darkMode?"dark":""}>
       <Head>
         <title>Create Next App</title>
@@ -32,7 +31,13 @@ export default function Home() {
       </Head>
       <main className=' px-10 md:px-20 lg:px-40 dark:bg-gray-900 ease-in duration-300' >
         <section className='min-h-screen '>
-          
+        <nav className='py-14 mb-14 flex justify-between dark:text-white px-10'>
+            <h1 className=' text-xl font-burtons'><span className='hover:text-teal-500 ease-in duration-300'>YE </span><span className='hover:text-teal-500 ease-in duration-300 '>AB</span></h1>
+            <ul className='flex items-center'>
+              <Link href="#" className='cursor-pointer text-2xl'><BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)}/></Link>
+              <a download href={"Yeabsra Leulseged CV.pdf"} className='px-4 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md ml-9'>Resume</a>
+            </ul>
+          </nav>
           <div className='text-center p-10'>
             <h2 className='text-teal-600 text-5xl py-2 font-medium md:text-6xl'>Yeabsra</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Fullstack Developer</h3>
@@ -128,6 +133,6 @@ export default function Home() {
         </section>
       </main>
     </div>
-    </Layout>
+
   )
 }
